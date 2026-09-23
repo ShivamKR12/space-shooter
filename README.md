@@ -1,5 +1,17 @@
 # Space Shooter
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![pygame-ce](https://img.shields.io/badge/Library-pygame--ce-1D9BF0?logo=pygame&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+</div>
+
+
+
 A 2D arcade-style space shooter game built with Python and the Pygame library. Navigate your ship through the endless void and survive as long as possible by dodging and destroying incoming meteors!
 
 ## Features
