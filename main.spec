@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['code/main.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[('images', 'images'), ('audio', 'audio')],

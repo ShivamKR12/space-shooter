@@ -122,7 +122,9 @@ def display_score():
     pygame.draw.rect(display_surface, (240,240,240), text_rect.inflate(20,10).move(0,-8), 5, 10)
 
 # general setup 
+pygame.mixer.pre_init(44100, -16, 2, 1024)
 pygame.init()
+pygame.mixer.set_num_channels(64)
 info = pygame.display.Info()
 WINDOW_WIDTH, WINDOW_HEIGHT = info.current_w, info.current_h
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
